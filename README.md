@@ -39,14 +39,17 @@ Translation can be integrated using `LibreTranslate` for multilingual social med
 
 ## 📂 Project Structure
 
-Caption_and_post_generator/
-├── app.py # Gradio app with 3 tabs (Captioning, Enhancer, Post Generator)
-├── caption.py # BLIP-based image captioning
-├── generator.py # Phi-2 powered post generation
-├── enhancer.py # Adds hashtags & emojis to captions
-├── requirements.txt # Dependencies
-├── pycache/ # Python cache
-└── screenshots/ # Project screenshots for demo
+
+### 📝 File Descriptions:
+
+- **app.py**: Gradio app with 3 tabs — Captioning, Enhancer, Post Generator  
+- **caption.py**: BLIP-based image captioning module  
+- **generator.py**: Phi-2 based creative caption generator  
+- **enhancer.py**: Adds emojis & hashtags to captions  
+- **requirements.txt**: Project dependencies  
+- **screenshots/**: Folder containing screenshots for report/demo  
+- **__pycache__/**: Auto-generated Python cache files
+
 
 
 
